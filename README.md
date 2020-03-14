@@ -1,10 +1,10 @@
 # Sudoku Solver
 
-> Bactrack Function.
+> Backtracking Algorithm
 
 > Solves Easy - Hard Puzzles
 
-> #SudokuSolver, #Python
+> #SudokuSolver, #Python, #Backtracking
 
 ## Table of Contents (Optional)
 
@@ -15,12 +15,26 @@
 - [Support](#support)
 - [License](#license)
 
-
 ---
 
 ## Usage 
 
 - Enter puzzle row by row, space seperated and use '0' for blank spaces.
+- <code>#Bactrack Implementation
+def solve ():
+        for y in range(9):
+            for x in range(9):
+                    if grid[y][x] == 0:
+                        for n in range(1,10):
+                            if check(y,x,n):
+                                grid[y][x] = n
+                                solve()
+                                grid[y][x] = 0
+                        return
+        printgrid(grid)
+#row by row grid
+row = 9
+grid = []</code>
 
 ### Clone
 
@@ -28,9 +42,9 @@
 
 ---
 
-## Tests (Optional)
-
-- Going into more detail on code and technologies used.
+## Tests
+- Tested With sudoku.com Easy - Hard Puzzles.
+- Backtracking is an algorithmic-technique for solving problems recursively by trying to build a solution incrementally, one piece at a time, removing those solutions that fail to satisfy the constraints of the problem at any point of time (by time, here, is referred to the time elapsed till reaching any level of the search tree). 
 
 ---
 
