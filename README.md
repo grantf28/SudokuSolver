@@ -20,21 +20,23 @@
 ## Usage 
 
 - Enter puzzle row by row, space seperated and use '0' for blank spaces.
-    -   #Bactrack Implementation
-        def solve ():
-                for y in range(9):
-                    for x in range(9):
-                            if grid[y][x] == 0:
-                                for n in range(1,10):
-                                    if check(y,x,n):
-                                        grid[y][x] = n
-                                        solve()
-                                        grid[y][x] = 0
-                                return
-                printgrid(grid)
-        #row by row grid
-        row = 9
-        grid = []
+```python
+#Bactrack Implementation
+def solve ():
+        for y in range(9):
+            for x in range(9):
+                    if grid[y][x] == 0:
+                        for n in range(1,10):
+                            if check(y,x,n):
+                                grid[y][x] = n
+                                solve()
+                                grid[y][x] = 0
+                        return
+        printgrid(grid)
+#row by row grid
+row = 9
+grid = []
+```
 
 ### Clone
 
