@@ -12,7 +12,6 @@
 
 - [Usage](#Usage)
 - [Contributing](#contributing)
-- [FAQ](#faq)
 - [Support](#support)
 - [License](#license)
 
@@ -22,7 +21,6 @@
 ## Usage 
 
 - Enter puzzle row by row, space seperated and use '0' for blank spaces.
-- 
 
 ### Clone
 
@@ -32,7 +30,7 @@
 
 ## Tests (Optional)
 
-- Going into more detail on code and technologies used
+- Going into more detail on code and technologies used.
 
 ---
 
@@ -63,15 +61,6 @@
 Reach out to me at one of the following places!
 
 - Website at <a href="http://www.grantf.co.za" target="_blank">Grantf28 </a>
-
----
-
-## Donations (Optional)
-
-- You could include a <a href="https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png" target="_blank">Gratipay</a> link as well.
-
-[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png)](https://gratipay.com/fvcproductions/)
-
 
 ---
 
